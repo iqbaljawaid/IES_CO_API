@@ -1,0 +1,47 @@
+server:
+  port: 9095
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: admin
+    url: jdbc:mysql://localhost:3306/major_project
+    username: iqbal
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        enable_lazy_load_no_trans: allow
+        event:
+          merge:
+            entity_copy_observer: allow
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: bzqjuitwmfduuors
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: iqbaljawaid.5822@gmail.com
+    
+aws:
+  accessKey: AKIATWYBOPDXYEAOYJPW
+  secretKey: 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
+  bucketName: correspondence-bucket
+    
+app:
+  messages:
+    invalidCaseNum: Invalid Case Number
+    
+    
+    
+   
+    
+ 
