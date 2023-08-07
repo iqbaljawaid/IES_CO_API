@@ -21,7 +21,7 @@ spring:
     show-sql: true
   mail:
     host: smtp.gmail.com
-    password: bzqjuitwmfduuors
+    password:
     port: 587
     properties:
       mail:
@@ -29,12 +29,12 @@ spring:
           auth: true
           starttls:
             enable: true
-    username: iqbaljawaid.5822@gmail.com
+    username: 
     
 aws:
-  accessKey: AKIATWYBOPDXYEAOYJPW
-  secretKey: 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
-  bucketName: correspondence-bucket
+  accessKey: 
+  secretKey: 
+  bucketName: 
     
 app:
   messages:
